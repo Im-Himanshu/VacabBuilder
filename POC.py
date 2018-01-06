@@ -9,7 +9,7 @@ pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 # printing number of pages in pdf file
 print(pdfReader.numPages)
 
-# creating a page object
+# creating a page objectrf
 pageObj = pdfReader.getPage(0)
 
 # extracting text from page
