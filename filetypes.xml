@@ -2,9 +2,11 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
+      <mapping pattern="GeneralProjectInfo" type="PLAIN_TEXT" />
       <mapping pattern="thehinduarticle" type="PLAIN_TEXT" />
       <mapping pattern="WhyIAmAnAtheist" type="PLAIN_TEXT" />
       <mapping pattern="databaseConnectionSetup" type="PLAIN_TEXT" />
+      <mapping ext="ini" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
