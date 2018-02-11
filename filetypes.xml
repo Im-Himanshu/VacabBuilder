@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="thehinduarticle" type="PLAIN_TEXT" />
       <mapping pattern="WhyIAmAnAtheist" type="PLAIN_TEXT" />
+      <mapping pattern="databaseConnectionSetup" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
