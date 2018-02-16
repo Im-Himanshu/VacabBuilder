@@ -11,6 +11,7 @@
       <mapping ext="tpb" type="DBN-PSQL" />
       <mapping ext="prc" type="DBN-PSQL" />
       <mapping ext="trg" type="DBN-PSQL" />
+      <mapping pattern="sqlServerCOnnection.sql" type="DBN-SQL" />
       <mapping ext="vw" type="DBN-SQL" />
       <removed_mapping ext="ini" approved="true" type="Ini" />
       <mapping pattern="thehinduarticle" type="PLAIN_TEXT" />
@@ -18,6 +19,7 @@
       <mapping pattern="GeneralProjectInfo" type="PLAIN_TEXT" />
       <mapping pattern="databaseConnectionSetup" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
+      <mapping pattern="sqlServerCOnnection" type="SQL" />
     </extensionMap>
   </component>
 </application>
