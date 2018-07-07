@@ -18,4 +18,20 @@ data = ['yahoo', 'machao', 'wohoo']
 with open('eggs.csv', "wb") as csv_file:
         writer = csv.writer(csv_file, delimiter=',')
         for line in data:
+
+
+
             writer.writerow(line)
+
+
+
+
+            with open(EasyWordOutput, 'w') as csvfile2 :
+                writer2 = csv.DictWriter(csvfile2, fieldnames=fieldnames)
+            writer2.writeheader()
+
+            for key in FinalCorpuse :
+                if FinalCorpuse.get(key) < AvgMarks:
+                    writer2.writerow({'Word': key, 'Frequency': FinalCorpuse.get(key)})
+                if FinalCorpuse.get(key) > AvgMarks:
+                    writer.writerow({'Word': key, 'Frequency': FinalCorpuse.get(key)})
