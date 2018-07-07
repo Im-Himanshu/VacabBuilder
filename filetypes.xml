@@ -17,6 +17,8 @@
       <mapping pattern="WhyIAmAnAtheist" type="PLAIN_TEXT" />
       <mapping pattern="GeneralProjectInfo" type="PLAIN_TEXT" />
       <mapping pattern="databaseConnectionSetup" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="sqlite3" type="PLAIN_TEXT" />
       <mapping pattern="sqlServerCOnnection" type="SQL" />
     </extensionMap>
   </component>
